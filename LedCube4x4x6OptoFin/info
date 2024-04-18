@@ -1,0 +1,190 @@
+{
+  "uuid": "93a2991d4b0182299d78b525d5984dc2",
+  "path": "Offline/LedCube4x4x6OptoFin",
+  "name": "LedCube4x4x6OptoFin",
+  "content": "",
+  "created_at": "2024-03-06 10:11:59",
+  "updated_at": "2024-04-18 20:22:11",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "1ac12f402acfad983eeb61e85ca0ffe0",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d6615b3fc2df47ab8ddc36ed64bbb88a": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 38,
+        "5b67209a33094718865d2fda9f0a0ab7": 6,
+        "c6aceae3002d4155b294056b14e721fc": 2,
+        "e545f26e87c74952857381bd0bff848e": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "98ebb4b3d1c74f1584a81309cb52c5a3": 16
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000 uF",
+          1,
+          "CASE-A_3216",
+          "C1",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "C_Tan_SMD_A_EU",
+            "Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "IR Receiver",
+          1,
+          "HDR-M-2.54_1X3",
+          "J1",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "BC337",
+          6,
+          "2N2222A",
+          "Q1,Q2,Q3,Q4,Q5,Q6",
+          {
+            "Supplier": "",
+            "Supplier Part": "C358533",
+            "Manufacturer": "Foshan Blue Rocket Elec",
+            "Manufacturer Part": "2N2222A",
+            "Contributor": "musthafafarhan",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2N2222A",
+            "puuid": "b152dca838a9423db77f560f1d7f7fc7",
+            "uuid": "5b67209a33094718865d2fda9f0a0ab7"
+          }
+        ],
+        [
+          "1K",
+          6,
+          "R0603",
+          "R1,R2,R3,R4,R5,R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "220R",
+          16,
+          "R0603",
+          "R7,R10,R12,R14,R17,R19,R21,R22,R25,R27,R29,R30,R33,R35,R37,R38",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "270R",
+          16,
+          "R0603",
+          "R9,R11,R13,R15,R16,R18,R20,R23,R24,R26,R28,R31,R32,R34,R36,R39",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "74HC595",
+          2,
+          "SOP-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U1,U2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C18164493",
+            "Manufacturer": "GR(国睿)",
+            "Manufacturer Part": "74HC595",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "74HC595",
+            "puuid": "405ef91df9aa4857a93f9762e211a45b",
+            "uuid": "c6aceae3002d4155b294056b14e721fc"
+          }
+        ],
+        [
+          "ESP32 WROOM DEVKIT V1",
+          1,
+          "DOIT-ESP32-DEVKIT-V1",
+          "U3",
+          {
+            "Contributor": "Luis Ángel Guzmán",
+            "Supplier Part": "",
+            "Supplier": "Ali Express",
+            "link": "https://pt.aliexpress.com/item/32842731763.html",
+            "spiceSymbolName": "DOIT ESP32 DEVKIT ESP-WROOM-32 CP2102 WIFI Bluetooth ESP8266 w/ label",
+            "Manufacturer Part": "",
+            "puuid": "f23e38b305ac46b892f16173cbe364ec",
+            "uuid": "d6615b3fc2df47ab8ddc36ed64bbb88a"
+          }
+        ],
+        [
+          "CYPC817C",
+          16,
+          "DIP-4_L6.4-W4.6-P2.54-LS7.6-BL",
+          "U4,U5,U6,U7,U8,U9,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C385059",
+            "Manufacturer": "OCIC(卓睿科)",
+            "Manufacturer Part": "CYPC817C",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CYPC817C",
+            "puuid": "ba78760833d24815a3b603cbd251d282",
+            "uuid": "98ebb4b3d1c74f1584a81309cb52c5a3"
+          }
+        ]
+      ],
+      "updateTime": 1713460931,
+      "createTime": 1709712719,
+      "histories": [],
+      "created_at": "2024-03-06 10:11:59",
+      "updated_at": "2024-04-18 20:22:11"
+    }
+  ],
+  "sort": [],
+  "title": "LedCube4x4x6OptoFin",
+  "foldername": "LedCube4x4x6OptoFin",
+  "schfilename": "LedCube4x4x6OptoFin.json",
+  "schfilemtime": 1713460931246
+}
